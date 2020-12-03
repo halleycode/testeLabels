@@ -6,23 +6,12 @@ on:
     paths:
       - .github/labels.yml
 jobs:
-  labels_sync:
-    strategy:
-      # don't break another job if one is failed
-      fail-fast: false
-      matrix:
-        repo:
-          - halleycode/testLabels2
-          - halleycode/testeLabels
-
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.3
-
-      - name: Sync
-        uses: micnncim/action-label-syncer@v1.2.0
+      - uses: actions/checkout@v2
+      - uses: micnncim/action-label-syncer@v1
         with:
-          repository: ${{ matrix.repo }}
+          manifest: path/to/manifest/labels.yml
+          repository: halleycode/testLabels2
           token: ${{ secrets.PERSONAL_TOKEN }}
-          prune: false
