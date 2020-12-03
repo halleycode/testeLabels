@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: micnncim/action-label-syncer@v1
         with:
-          manifest: path/to/manifest/labels.yml
+          manifest: .github/labels.yml
           repository: halleycode/testLabels2
           token: ${{ secrets.PERSONAL_TOKEN }}
