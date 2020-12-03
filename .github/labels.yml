@@ -4,3 +4,6 @@
 - name: Sul
   description: Improvements or additions to documentation
   color: 0000ff
+- name: nordeste
+  description: Improvements or additions to documentation
+  color: ff0000
