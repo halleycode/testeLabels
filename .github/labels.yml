@@ -1,4 +1,4 @@
-- name: testee22
+- name: Documentation
   description: Something isn't working
   color: d73a4a
 - name: testteeee
@@ -11,7 +11,7 @@
   description: Improvements or additions to documentation
   color: 0075ca
 - name: testte4
-  description: Improvements or additions to documentation
+  description: 🌎 Improvements or additions to documentation
   color: 0075ca
 - name: documentation
   description: fui alterado
