@@ -14,4 +14,5 @@ jobs:
         with:
           manifest: .github/labels.yml
           repository: halleycode/testLabels2
+          repository: halleycode/testeLabels
           token: ${{ secrets.REPO_TOKEN }}
