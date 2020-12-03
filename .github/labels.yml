@@ -1,6 +1,6 @@
-- name: bug
+- name: testee22
   description: Something isn't working
   color: d73a4a
-- name: documentation
+- name: testteeee
   description: Improvements or additions to documentation
   color: 0075ca
