@@ -15,3 +15,4 @@ jobs:
           manifest: .github/labels.yml
           repository: halleycode/testLabels2
           token: ${{ secrets.PERSONAL_TOKEN }}
+        prune: false
